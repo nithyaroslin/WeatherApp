@@ -21,6 +21,7 @@ function Weather() {
                 {/* <h4>Weather Data found</h4> */}
                 <p>Longitute : {weatherData["coord"]["lon"]}</p>
                 <p>Latitude  : {weatherData["coord"]["lon"]}</p>
+                <p>Weather   : {weatherData["weather"][0]["description"]}</p>
             </>
             : 
              <h4>Weather data Loading....</h4>
